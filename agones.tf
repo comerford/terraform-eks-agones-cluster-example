@@ -15,6 +15,6 @@ module "helm_agones" {
   log_level              = var.log_level
   gameserver_minPort     = 7000
   gameserver_maxPort     = 8000
-  gameserver_namespaces  = ["default", "vire-gameservers"]
+  gameserver_namespaces  = ["default", "gameservers"]
 }
 
